@@ -1,0 +1,10 @@
+.banner {
+    background-color: wheat;
+    margin-top: 75px;
+    text-align: center;
+    padding: 30px 0;
+    color: darkolivegreen;
+}
+#starting-image {
+    height: 500px;
+}
