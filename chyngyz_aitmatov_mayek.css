@@ -1,0 +1,78 @@
+.tab{
+    float: inline-end;
+    margin-left: 60px;
+    height: 250px;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+.indent {
+    margin-left: 60px;
+    text-indent:30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.indent_text {
+    margin-left: 60px;
+    text-indent:30px;
+    font-size: 20px;
+}
+
+.indent_bold {
+    margin-left: 60px;
+    text-indent:30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.head {
+    font-weight: bold;
+    margin-left: 60px;
+    text-indent:30px;
+    font-size: 20px
+}
+
+footer {
+    text-align: center;
+}
+#photo {
+
+}
+
+h2, h1 {
+    text-align: center;
+    color: darkolivegreen;
+}
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: darkolivegreen;
+
+}
+
+.banner {
+    background-color: wheat;
+    margin-top: 75px;
+    text-align: center;
+    padding: 30px 0;
+    color: darkolivegreen;
+}
+#starting-image {
+    height: 500px;
+}
