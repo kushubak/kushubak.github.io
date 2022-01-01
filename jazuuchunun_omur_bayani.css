@@ -54,3 +54,29 @@ h2 {
 #starting-image {
     height: 500px;
 }
+
+.footer {
+        background-color: 		teal;
+        color: white;
+        padding-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer_list ul{
+        text-align: left;
+        color: white;
+        display: inline-table;
+        text-decoration: none;
+        margin: 7px;
+        list-style-type: none;
+        
+    }
+
+    .footer_list {
+        text-decoration: none;
+    }
+
+    .article {
+        background-color: MintCream;
+    }
