@@ -1,3 +1,8 @@
+body {
+    background-color: mintcream;
+}
+
+
 .tab{
     float: inline-end;
     margin-left: 60px;
@@ -58,7 +63,8 @@ h2, h1 {
     background-color: white;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2); 
 }
 
 .navbar li {
@@ -116,7 +122,7 @@ h2, h1 {
 		font-weight: bold;
 	}
 		
-	a:nth-child() {
+	a:nth-child(9) {
 		font-weight: bold;
 	}
 		
@@ -151,7 +157,10 @@ h2, h1 {
     }
 
     .article {
-        background-color: MintCream;
+        width: 1100px; /* Ширина слоя */
+        margin: 100px; /* Значение отступов */
+        padding: 10px; /* Поля вокруг текста */
+        background: white;
     }
 
 
