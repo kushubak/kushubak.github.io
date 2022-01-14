@@ -1,3 +1,7 @@
+body {
+    background-color: mintcream;
+}
+
 .navbar {
     background-color: white;
     position: fixed;
@@ -14,6 +18,7 @@
 .navbar a {
     text-decoration: none;
     color: darkolivegreen;
+    
 }
 
 .banner {
@@ -25,4 +30,83 @@
 }
 #starting-image {
     height: 500px;
+}
+
+.headings {
+    text-align: center;
+    width: 1100px; /* Ширина слоя */
+    margin: 100px; /* Значение отступов */
+    padding: 10px; /* Поля вокруг текста */
+    background: white;
+}
+
+.tag {
+    color: deepskyblue;
+    font-style: italic;
+}
+
+.description {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.button {
+    font-size: 16px;
+}
+
+.pagination_section {
+    text-align: center;
+}
+
+/* pagination styling */
+.pagination_section a {
+    color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+}
+
+/* pagination hover effect on non-active */
+.pagination_section a:hover:not(.active) {
+    background-color: #031F3B;
+    color: white;
+}
+
+/* pagination hover effect on active*/
+a:nth-child(#) {
+    background-color: green;
+    color: white;
+}
+    
+a:nth-child() {
+    font-weight: bold;
+}
+    
+a:nth-child() {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: 		teal;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer_list ul{
+    text-align: left;
+    color: white;
+    display: inline-table;
+    text-decoration: none;
+    margin: 7px;
+    list-style-type: none;
+    
+}
+
+.footer_list {
+    text-decoration: none;
+}
+
+.pagination {
+    font-weight: bold;
 }
