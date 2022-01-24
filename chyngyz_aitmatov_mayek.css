@@ -7,6 +7,7 @@ body {
     float: inline-end;
     margin-left: 60px;
     height: 250px;
+    text-align: center;
 }
 
 a:hover {
