@@ -157,8 +157,9 @@ h2, h1 {
         
     }
 
-    .footer_list {
+    .footer_list a {
         text-decoration: none;
+	color: white;
     }
 
     .article {
