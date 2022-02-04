@@ -154,8 +154,9 @@ figure {
         
     }
 
-    .footer_list {
+    .footer_list a {
         text-decoration: none;
+	color: white;
     }
 
     .article {
