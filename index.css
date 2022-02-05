@@ -77,6 +77,24 @@ body {
     text-decoration: none;
 }
 
+.button1 {
+    color:#00aff2;
+    padding: .7em 2em;
+    text-decoration:none;
+    text-align:center;
+    margin:20px auto;
+    display: inline-block;
+    background: white;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #00aff2;
+}
+
+.button1 a {
+        color: #00aff2;
+        text-decoration: none;
+}
+
 .pagination_section {
     text-align: center;
 }
