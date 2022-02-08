@@ -4,6 +4,8 @@ body {
     font-weight: 400;
     line-height: 1.6;
     font-size: 15px;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 
@@ -12,6 +14,8 @@ body {
     margin-left: 60px;
     height: 250px;
     text-align: center;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 a:hover {
@@ -23,12 +27,16 @@ a:hover {
     text-indent:30px;
     font-size: 20px;
     text-align: center;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .indent_text {
     margin-left: 60px;
     text-indent:30px;
     font-size: 20px;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .indent_bold {
@@ -36,6 +44,8 @@ a:hover {
     text-indent:30px;
     font-size: 20px;
     font-weight: bold;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .indent_footer {
@@ -43,30 +53,34 @@ a:hover {
     text-align: right;
     font-size: 20px;
     font-weight: bold;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .head {
     font-weight: bold;
     margin-left: 60px;
     text-indent:30px;
-    font-size: 20px
+    font-size: 20px;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 footer {
     text-align: center;
 }
-#photo {
 
-}
 
 h2, h1 {
     text-align: center;
     color: darkolivegreen;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .navbar {
     background-color: white;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2); 
@@ -89,7 +103,8 @@ h2, h1 {
     text-align: center;
     padding: 30px 0;
     color: darkolivegreen;
-    width: 1420px;
+    min-width: 300px;
+    max-width: 100%;
 }
 #starting-image {
     height: 500px;
@@ -135,7 +150,8 @@ h2, h1 {
 	.content {
 		margin: 50px;
 		padding: 15px;
-		width: 800px;
+		min-width: 300px;
+        max-width: 100%;
 		height: 200px;
 		border: 2px solid black;
 	}
@@ -168,6 +184,8 @@ h2, h1 {
         margin: 100px; /* Значение отступов */
         padding: 10px; /* Поля вокруг текста */
         background: white;
+        min-width: 300px;
+        max-width: 100%;
     }
 
 
