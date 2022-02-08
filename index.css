@@ -33,7 +33,9 @@ body {
     text-align: center;
     padding: 30px 0;
     color: darkolivegreen;
-    max-width: fit-content;
+    min-width: 300px;
+    max-width: 100%;
+    overflow: hidden;
 }
 #starting-image {
     
@@ -41,7 +43,8 @@ body {
 
 .headings {
     text-align: center;
-    max-width: fit-content;
+    min-width: 300px;
+    max-width: 100%;
     margin: 100px; /* Значение отступов */
     padding: 10px; /* Поля вокруг текста */
     background: white;
@@ -57,7 +60,8 @@ body {
 .description {
     font-style: italic;
     font-size: 18px;
-    max-width: fit-content;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .button {
@@ -150,7 +154,8 @@ a:nth-child() {
     text-decoration: none;
     margin: 7px;
     list-style-type: none;
-    max-width: fit-content;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .footer_list a {
