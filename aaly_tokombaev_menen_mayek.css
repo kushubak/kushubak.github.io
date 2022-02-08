@@ -4,10 +4,14 @@ body {
     font-weight: 400;
     line-height: 1.6;
     font-size: 15px;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .tab{
     text-align: center;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 a:hover {
@@ -19,6 +23,8 @@ a:hover {
     text-indent:30px;
     font-size: 20px;
     text-align: center;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .indent_text {
@@ -26,6 +32,8 @@ a:hover {
     margin-right: 50px;
     font-size: 20px;
     text-indent:30px;
+    min-width: 300px;
+    max-width: 100%;
     
 }
 
@@ -36,18 +44,24 @@ a:hover {
     text-align: justify;
     font-size: 20px;
     font-weight: bold;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .indent_comment{
     margin-left: 390px;
     text-align: left;
     font-size: 20px;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .indent_footer {
     margin-right: 120px;
     text-align: right;
     font-size: 20px;
+    min-width: 300px;
+    max-width: 100%;
     
 }
 
@@ -56,6 +70,8 @@ a:hover {
     margin-left: 60px;
     text-indent:30px;
     font-size: 20px
+    min-width: 300px;
+    max-width: 100%;
 }
 
 footer {
@@ -70,7 +86,7 @@ h2, h1 {
 
 .navbar {
     background-color: white;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
@@ -93,11 +109,14 @@ h2, h1 {
     text-align: center;
     padding: 30px 0;
     color: darkolivegreen;
-    width: 1420px;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 figure {
     text-align: center;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .kuplet_iri {
@@ -105,6 +124,8 @@ figure {
     text-align: left;
     font-style: italic;
     font-size: 19px;
+    min-width: 300px;
+    max-width: 100%;
 }
 
 .pagination_section {
@@ -176,7 +197,8 @@ figure {
     }
 
     .article {
-        width: 1100px; /* Ширина слоя */
+        min-width: 300px;
+        max-width: 100%;
         margin: 100px; /* Значение отступов */
         padding: 10px; /* Поля вокруг текста */
         background: white;
