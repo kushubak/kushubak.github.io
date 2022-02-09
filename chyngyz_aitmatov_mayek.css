@@ -184,7 +184,7 @@ h2, h1 {
         margin: 100px; /* Значение отступов */
         padding: 10px; /* Поля вокруг текста */
         background: white;
-        min-width: 700px;
+        min-width: 500px;
         max-width: 100%;
     }
 
