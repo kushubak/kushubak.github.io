@@ -99,7 +99,7 @@ h2 {
 }
 
 .article {
-    min-width: 700px;
+    min-width: 500px;
     max-width: 100%;
     margin: 100px; /* Значение отступов */
     padding: 10px; /* Поля вокруг текста */
