@@ -63,6 +63,12 @@ h2 {
     color: darkolivegreen;
 }
 
+.navbar a:hover {
+    text-decoration: none;
+    color:#A7A88A;
+}
+
+
 .banner {
     background-color: wheat;
     margin-top: 75px;
@@ -98,6 +104,11 @@ h2 {
     text-decoration: none;
     color: white;
 }
+
+.footer_list a:hover {
+        text-decoration: none;
+	color: #E7DED9;
+    }
 
 .article {
     min-width: 500px;
