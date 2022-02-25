@@ -24,7 +24,11 @@ body {
 .navbar a {
     text-decoration: none;
     color: darkolivegreen;
-    
+    }
+
+.navbar a:hover {
+    text-decoration: none;
+    color:#A7A88A;
 }
 
 .banner {
@@ -162,6 +166,11 @@ a:nth-child() {
     text-decoration: none;
     color: white;
 }
+
+.footer_list a:hover {
+        text-decoration: none;
+	    color: #E7DED9;
+    }
 
 .pagination {
     font-weight: bold;
