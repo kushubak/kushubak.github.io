@@ -16,6 +16,7 @@ body {
     text-align: center;
     min-width: 300px;
     max-width: 100%;
+    border-radius: 15px;
 }
 
 a:hover {
@@ -97,6 +98,10 @@ h2, h1 {
 
 }
 
+.navbar a:hover {
+    text-decoration: none;
+    color:#A7A88A;
+
 .banner {
     background-color: wheat;
     margin-top: 75px;
@@ -177,6 +182,11 @@ h2, h1 {
     .footer_list a {
         text-decoration: none;
 	color: white;
+    }
+	
+    .footer_list a:hover {
+        text-decoration: none;
+	color: #E7DED9;
     }
 
     .article {
