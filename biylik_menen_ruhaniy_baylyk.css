@@ -13,6 +13,7 @@ body {
     margin: 5px 35px 8px 20px;
     min-width: 300px;
     max-width: 100%;
+    
 }
 
 a:hover {
@@ -90,6 +91,11 @@ h2, h1 {
     text-decoration: none;
     color: darkolivegreen;
 
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color:#A7A88A;
 }
 
 .banner {
@@ -174,6 +180,11 @@ figure {
     .footer_list a {
         text-decoration: none;
 	color: white;
+    }
+
+    .footer_list a:hover {
+        text-decoration: none;
+	color: #E7DED9;
     }
 
     .article {
