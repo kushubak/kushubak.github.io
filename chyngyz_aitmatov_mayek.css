@@ -95,6 +95,7 @@ h2, h1 {
 .navbar a {
     text-decoration: none;
     color: darkolivegreen;
+    font-weight: bold;
 
 }
 
