@@ -93,7 +93,11 @@ h2, h1 {
 .navbar a {
     text-decoration: none;
     color: darkolivegreen;
+}
 
+.navbar a:hover {
+    text-decoration: none;
+    color:#A7A88A;
 }
 
 .banner {
@@ -179,6 +183,11 @@ figure {
     .footer_list a {
         text-decoration: none;
 	color: white;
+    }
+
+   .footer_list a:hover {
+        text-decoration: none;
+	color: #E7DED9;
     }
 
     .article {
