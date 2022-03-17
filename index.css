@@ -23,7 +23,8 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: darkolivegreen;
+    color: #175873;
+    font-weight: bold;
     }
 
 .navbar a:hover {
@@ -32,7 +33,7 @@ body {
 }
 
 .banner {
-    background-color: wheat;
+    background-color: #34474F;
     margin-top: 75px;
     text-align: center;
     padding: 30px 0;
@@ -41,6 +42,11 @@ body {
     max-width: 100%;
     overflow: hidden;
 }
+
+.banner h1,h2 {
+    color: white;
+}
+
 #starting-image {
     
 }
@@ -73,15 +79,10 @@ body {
     text-decoration: none;
     display: inline-block;
     color: white;
-    text-decoration: none;
-    padding: .5em 2em;
-    outline: none;
-    border-width: 2px 0;
-    border-style: solid none;
-    border-color: #FDBE33 #000 #D77206;
+    padding: 10px 30px;
+    border: #00CF63;
     border-radius: 6px;
-    background: linear-gradient(#F3AE0F, #E38916) #E38916;
-    transition: 0.2s;
+    background: #00CF63;
 }
 
 .button a {
@@ -171,6 +172,11 @@ a:nth-child() {
         text-decoration: none;
 	    color: #E7DED9;
     }
+
+
+#footer_copyright {
+    color: #C0DCEC;
+}
 
 .pagination {
     font-weight: bold;
